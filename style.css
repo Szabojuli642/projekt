@@ -22,14 +22,34 @@ Thead{
     font-size: medium;
     text-align: center;
 }
-body{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 tbody{
     color: azure;
 }
 #tablazat{
     background-image: url(34778-2250x1371-desktop-hd-james-bond-background.jpg);
+}
+#jamesbond{
+    margin-right: 2%;
+    width: 60%;
+    float: right;
+    margin-left: 2%;
+}
+#jbleiras{
+    margin-left: 2%;
+    
+}
+.berlinbol{
+    width: 20%;
+    margin-right: 2% ;
+    margin-left: 2%;
+    float: right;
+}
+.plakat{
+    width: 20%;
+    margin-left: 2%;
+    float: left;
+}
+video{
+    margin-right: 2%;
+    float: right;
 }
