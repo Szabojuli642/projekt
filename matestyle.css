@@ -1,0 +1,58 @@
+table{
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 50%  ;
+    background-image:url(images/matekedvenc/james_background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+th, td{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+.nemhivatalos{
+    background-color: rgba(177, 0, 0, 0.329);
+}
+Thead{
+    background-color: rgba(173, 0, 0, 0.5);
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+tbody{
+    color: azure;
+}
+#tablazat{
+    background-image: url(images/matekedvenc/james_background.jpg);
+}
+#jamesbond{
+    margin-right: 2%;
+    width: 60%;
+    float: right;
+    margin-left: 2%;
+}
+#jbleiras{
+    margin-left: 2%;
+    
+}
+.berlinbol{
+    width: 20%;
+    margin-right: 2% ;
+    margin-left: 2%;
+    float: right;
+}
+.plakat{
+    width: 20%;
+    margin-left: 2%;
+    float: left;
+}
+video{
+    margin-right: 2%;
+    float: right;
+}
+ul{
+    list-style-image:url(james_logo_2-removebg-preview.png) ;
+}
