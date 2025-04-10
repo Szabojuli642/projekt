@@ -4,6 +4,24 @@ h1 {
 h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.idkisebbdolgok {
-    font-family: Arial, Helvetica, sans-serif;
+#kisebbdolgok {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#sztori {
+    font-family: sans-serif;
+}
+td {
+    text-align: center;
+}
+table {
+width: 100%;
+}
+#képecske {
+    float: right;
+}
+h1 {
+    text-align: center;
+}
+.igen {
+    text-align: right;
 }
