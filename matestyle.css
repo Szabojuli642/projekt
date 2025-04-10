@@ -54,5 +54,23 @@ video{
     float: right;
 }
 ul{
-    list-style-image:url(james_logo_2-removebg-preview.png) ;
+    list-style-image: url(images/matekedvenc/james_logo_2-removebg-preview.png);
+    font-size: 18px;
+    margin-left: 10%;
+    
+}
+p{
+    font-size: 18px;
+}
+h1{
+   font-size: 34px; 
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 22px;
 }
