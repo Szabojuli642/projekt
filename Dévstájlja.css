@@ -1,0 +1,27 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#kisebbdolgok {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#sztori {
+    font-family: sans-serif;
+}
+td {
+    text-align: center;
+}
+table {
+width: 100%;
+}
+#képecske {
+    float: right;
+}
+h1 {
+    text-align: center;
+}
+.igen {
+    text-align: right;
+}
