@@ -52,12 +52,7 @@ tbody{
 video{
     margin-right: 2%;
     float: right;
-}
-ul{
-    list-style-image: url(images/matekedvenc/james_logo_2-removebg-preview.png);
-    font-size: 18px;
-    margin-left: 10%;
-    
+    width: 50%;
 }
 p{
     font-size: 18px;
@@ -73,4 +68,7 @@ h3{
 }
 h4{
     font-size: 22px;
+}
+ul{
+    list-style: ;
 }
