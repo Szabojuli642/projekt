@@ -69,6 +69,13 @@ h3{
 h4{
     font-size: 22px;
 }
-ul{
-    list-style-image: url(james_logo.png);
+ul.custom-icon-list {
+    list-style: none;
+    padding-left: 0;
+}
+ul.custom-icon-list li {
+    background: url('images/matekedvenc/james_logo.png') no-repeat left center;
+    background-size: 5%; /* Eredeti méret negyede, ha az eredeti pl. 64px volt */
+    padding-left: 6%; /* Hely az ikon és a szöveg között */
+    line-height: 200%;
 }
