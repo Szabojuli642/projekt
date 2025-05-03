@@ -1,9 +1,9 @@
-table{
+#movietable{
     border-style: solid;
     border-color: black;
     border-width: 10px;
     width: 50%  ;
-    background-image:url(images/matekedvenc/james_background.jpg) ;
+    
     background-repeat: no-repeat;
     background-size: inherit;
 }
@@ -15,14 +15,14 @@ th, td{
 .nemhivatalos{
     background-color: rgba(177, 0, 0, 0.329);
 }
-Thead{
+#fthead{
     background-color: rgba(173, 0, 0, 0.5);
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
     text-align: center;
 }
-tbody{
+#ftbody{
     color: azure;
 }
 #tablazat{
@@ -46,8 +46,8 @@ tbody{
     float: right;
 }
 .plakat{
-    width: 20%;
-    margin-left: 2%;
+    width: 15%;
+    margin-left: 1%;
     float: left;
 }
 video{
@@ -84,4 +84,40 @@ body{
     background-image:url(images/matekedvenc/mate_background.jpg);
     background-attachment: fixed;
     color: 	rgb(90, 13, 14);
+}
+#jelvenyek{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color: rgb(90, 13, 14);
+    border: 0px;
+}
+.jelvenycella{
+    border: 0px;
+}
+#jelvenyfej{
+    border: 0px;
+    font-size: 20px;
+}
+#cseka{
+    float: right;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+#clearfix::after {
+    content: "A sorozat részeinek plakátja és a csekista jelvény";
+    clear: both;
+    display: table;
+
+}
+.plusz{
+    width: 150%;
+    padding-block: 2px;
+    margin-left: 3%;
+}
+#csjelveny{
+    width: 15%;
 }
