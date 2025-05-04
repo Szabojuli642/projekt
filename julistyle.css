@@ -1,0 +1,23 @@
+body{
+    background-image: url(images/Julikedvenc/hunger_background.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#cimkep{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+#fecsegoposzata{
+   width: 300px;
+   float: right;
+}
+#Peetah{
+    width: 300px;
+    float: right;
+}
