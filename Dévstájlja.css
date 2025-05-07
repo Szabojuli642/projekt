@@ -1,11 +1,15 @@
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: center;
 }
 h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
 }
 #kisebbdolgok {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
 }
 #sztori {
     font-family: sans-serif;
@@ -16,12 +20,19 @@ td {
 table {
 width: 100%;
 }
-#képecske {
-    float: right;
-}
-h1 {
-    text-align: center;
-}
 .igen {
     text-align: right;
+}
+.leiras {
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+}
+h3 {
+    font-size: 25px;
+}
+body {
+    background-color: rgb(110, 16, 16);
+    color: aliceblue;
 }
