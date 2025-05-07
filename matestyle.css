@@ -1,9 +1,9 @@
-table{
+#movietable{
     border-style: solid;
     border-color: black;
     border-width: 10px;
     width: 50%  ;
-    background-image:url(images/matekedvenc/james_background.jpg) ;
+    
     background-repeat: no-repeat;
     background-size: inherit;
 }
@@ -12,27 +12,38 @@ th, td{
     border-color: black;
     border-width: 2px;
 }
+tr:nth-child(odd){
+    background-color: brown;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
 .nemhivatalos{
     background-color: rgba(177, 0, 0, 0.329);
 }
-Thead{
+#fthead{
     background-color: rgba(173, 0, 0, 0.5);
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
     text-align: center;
 }
-tbody{
+#ftbody{
     color: azure;
 }
 #tablazat{
     background-image: url(images/matekedvenc/james_background.jpg);
+    background-attachment: fixed;
 }
 #jamesbond{
     margin-right: 2%;
     width: 60%;
     float: right;
     margin-left: 2%;
+    border-color: rgb(90, 13, 14);
+    border-radius: 2%;
+    border-style: solid;
+    border-width: 5px;
 }
 #jbleiras{
     margin-left: 2%;
@@ -45,14 +56,81 @@ tbody{
     float: right;
 }
 .plakat{
-    width: 20%;
-    margin-left: 2%;
+    width: 15%;
+    margin-left: 1%;
     float: left;
 }
 video{
     margin-right: 2%;
     float: right;
+    width: 50%;
 }
-ul{
-    list-style-image:url(james_logo_2-removebg-preview.png) ;
+p{
+    font-size: 18px;
+}
+h1{
+   font-size: 34px; 
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 22px;
+}
+ul.custom-icon-list {
+    list-style: none;
+    padding-left: 0;
+}
+ul.custom-icon-list li {
+    background: url('images/matekedvenc/james_logo.png') no-repeat left center;
+    background-size: 5%; /* lista ikon mérete */
+    padding-left: 6%; /* Hely az ikon és a szöveg között */
+    line-height: 200%; /* térköz*/
+}
+body{
+    background-image:url(images/matekedvenc/mate_background.jpg);
+    background-attachment: fixed;
+    color: 	rgb(90, 13, 14);
+}
+#jelvenyek{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color: rgb(90, 13, 14);
+    border: 0px;
+}
+.jelvenycella{
+    border: 0px;
+}
+#jelvenyfej{
+    border: 0px;
+    font-size: 20px;
+}
+#cseka{
+    float: right;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+#clearfix::after {
+    content: "A sorozat részeinek plakátja és a csekista jelvény";
+    clear: both;
+    display: table;
+
+}
+.plusz{
+    width: 150%;
+    padding-block: 2px;
+    margin-left: 3%;
+}
+#csjelveny{
+    width: 15%;
+}
+.kitunt{
+    width: 80%;
 }
