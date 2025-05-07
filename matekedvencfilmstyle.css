@@ -1,0 +1,55 @@
+th, td{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+tr:nth-child(odd){
+    background-color: rgba(192, 0, 0, 0.404);
+}
+tr:nth-child(even){
+    background-color: rgba(90, 13, 14, 0.26);
+}
+.nemhivatalos{
+    background-color: red;
+    
+}
+#fthead{
+    background-color: rgba(173, 0, 0, 0.5);
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+#ftbody{
+    color: azure;
+}
+#tablazat{
+    background-image: url(images/matekedvenc/james_background.jpg);
+    background-attachment: fixed;
+}
+a:link {
+    color: rgb(67, 167, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 101, 189);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(139, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+#movietable{
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 50%  ;
+}

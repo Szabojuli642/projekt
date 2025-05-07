@@ -1,0 +1,27 @@
+body{
+    background-attachment: fixed;
+    background-image: url(images/fooldal/mainbackground.jpg) ;
+    background-size: 50%;
+    color: aliceblue;
+    background-repeat: no-repeat;
+}
+a:link {
+    color: rgb(67, 167, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 101, 189);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(139, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}

@@ -41,3 +41,23 @@ button{
    float: right;
    margin-right: 15%;
 }
+a:link {
+    color: rgb(67, 167, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 101, 189);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(139, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
