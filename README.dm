@@ -3,10 +3,10 @@ Ez az oldal a **Netflix és chill** csapat kedvenc filmeit és könyveit mutatja
 A csapatban Juli weboldalát sajnos technikai okok miatt nem tudta teljesen befejezni.
 
 ##Az oldal
-Az oldalt az alábbi linken tudjátok megtekinteni: 
+Az oldalt az alábbi linken tudjátok megtekinteni: 💾
 
 ##A részek amelyekre büszkék vagyunk:
-###Juli codesnippet
+###Juli codesnippet📱
 ```html
 <ul>
               <li>Jennifer Lawrence - Katniss Everdeen</li>
@@ -21,8 +21,8 @@ Az oldalt az alábbi linken tudjátok megtekinteni:
               <li>Wes Bentley - Seneca Crane, játékmester</li>
             </ul>
 ```html
-###Dávid codesnippet
-###Máté codesnippet
+###Dávid codesnippet📱
+###Máté codesnippet📱
 ```html
 <Table id="jelvenyek">
                 <thead id="jthead">
