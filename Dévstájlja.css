@@ -14,17 +14,17 @@ h2 {
 #sztori {
     font-family: sans-serif;
 }
-td {
-    text-align: center;
-}
-table {
-width: 100%;
-}
 .igen {
     text-align: right;
 }
 .leiras {
     font-size: 50px;
+}
+td {
+    text-align: center;
+}
+table {
+width: 100%;
 }
 p {
     font-size: 20px;
@@ -33,6 +33,5 @@ h3 {
     font-size: 25px;
 }
 body {
-    background-color: rgb(110, 16, 16);
     color: aliceblue;
 }
